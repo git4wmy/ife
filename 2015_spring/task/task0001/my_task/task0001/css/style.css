@@ -238,8 +238,10 @@ footer {
 
 /*blog.html  start*/
 .main_body {
-    margin: 20px auto;
+    position: relative;
+    margin: 20px auto 30px;
     width: 980px;
+    background-color: #FFF;
 }
 
 .main {
@@ -631,12 +633,12 @@ span.current_page {
 }
 
 .max{height: 100%; background-color: #4169E1; position: absolute; top: 0; left: 0;}
-#no1 .max{width: 100%;}
-#no2 .max{width: 80%;}
-#no3 .max{width: 60%;}
-#no4 .max{width: 40%;}
-#no5 .max{width: 20%}
-.r_type{
+#no1 .max {width: 100%;}
+#no2 .max {width: 80%;}
+#no3 .max {width: 60%;}
+#no4 .max {width: 40%;}
+#no5 .max {width: 20%}
+.r_type {
     top: 0;
     left: 135px;
     position: absolute;
@@ -644,3 +646,83 @@ span.current_page {
     font-size: 10px;
     font-weight: 500;   
 }
+
+/*about.html start*/
+.axis {
+    margin: 100px auto;
+    height: 1400px;
+    width: 5px;
+    background-color: #E6E6FA;
+}
+
+.ab_portrait {
+    margin: 0 auto;
+    width: 160px;
+}
+
+.ab_portrait img {
+    position: absolute;
+    top: -50px;
+    width:160px; 
+    height:160px; 
+    border-radius:50%;
+    border: 5px solid #E6E6FA;
+}
+
+.contact img { top: 270px; }
+.edu img { top: 485px; }
+.exe img { top: 830px; }
+
+.contact,
+.edu,
+.exe {
+    margin: 0 auto;
+    width: 120px;
+}
+
+.contact img,
+.edu img,
+.exe img {
+    position: absolute;
+    width:120px; 
+    height:120px; 
+    border-radius:50%;
+    border: 5px solid #E6E6FA;
+}
+
+.ab_left {
+    position: absolute;
+    right: 56%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #949494;
+}
+
+.ab_right {
+    position: absolute;
+    right: 140px;
+    left: 56%;
+    font-size: 14px;
+    color: #949494;
+}
+
+.ab_year {
+    position: absolute;
+    left: 455px;
+    border-radius: 12px;
+    border: 5px solid #E6E6FA;
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.ab_name { top: 130px; text-indent: 2em;}
+.ab_contact { top: 410px; }
+.ab_edu, .ab_high { top: 625px; }
+.ab_college { top: 685px; }
+.ab_now { top: 745px; }
+.ab_exe, .ab_work1 { top: 970px; }
+.ab_work2 { top: 1030px; }
